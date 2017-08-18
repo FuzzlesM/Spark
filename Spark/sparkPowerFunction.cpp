@@ -1,13 +1,10 @@
-#include "stdafx.h"
-#include <iostream>
-#include <conio.h>
-using namespace std;
+#include <stdafx.h>
 
-int sparkPowerFunction()
+void sparkPowerFunction()
 {
 	int number;
 	int power;
-	int answer;	
+	int answer;
 	cout << "Please insert a number: ";
 	cin >> number;
 	cout << endl << number << " to the power of? :";
@@ -18,5 +15,4 @@ int sparkPowerFunction()
 		answer = answer * number;
 	}
 	cout << endl << number << " to the power of " << power << " is " << answer << endl;
-	return 0;
 }
